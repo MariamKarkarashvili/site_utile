@@ -65,7 +65,7 @@
 
     <ul style="list-style-type:circle">
 	<li> <p>Express utilise un package formidable pour uploader les fichiers. Il faut d'abord installer formidable</p>
-		<pre class="language-sh"><code class="language-sh"> $ npm install express formidable --save </code> </li>
+		<pre class="language-sh"><code class="language-sh"> $ npm install express formidable --save </code> </pre></li>
 	<li> <p> Regardons de près les balises qui permettent le chargement du fichier. Il faut spécifier type = file et multiple si on veut permettre le chargement de plusieurs fichier en même temps </p>
 		<pre class="language-sh"><code class="language-sh">  &lt;input type=&quot;file&quot; multiple id=&quot;fileUpload&quot; name=&quot;uploads[]&quot;&gt; </code></pre>
 	</li>
